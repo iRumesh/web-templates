@@ -1,0 +1,79 @@
+#page1.gwd-play-animation .gwd-motion-path-tk4d-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["8px", "-25px", "3.63px", "-29.63px", "1.73px", "-36.06px", "2px", "-44px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "ease-in-out"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 0.5s linear 1.5s 1 normal forwards running gwd-motion-path-tk4d-keys-x;
+  transform: translate3d(8px, 0px, 0px);
+}
+@keyframes gwd-motion-path-tk4d-keys-x {
+  0% {
+    transform: translate3d(8px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4679, 0.21, 0.2634, 1.14);
+  }
+  100% {
+    transform: translate3d(2px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-tk4d-anim-y {
+  animation: 0.5s linear 1.5s 1 normal forwards running gwd-motion-path-tk4d-keys-y;
+  transform: translate3d(0px, -25px, 0px);
+}
+@keyframes gwd-motion-path-tk4d-keys-y {
+  0% {
+    transform: translate3d(0px, -25px, 0px);
+    animation-timing-function: cubic-bezier(0.4978, 0.0217, 0.5337, 0.9461);
+  }
+  100% {
+    transform: translate3d(0px, -44px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1hgb-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-14px", "-42px", "-18.33px", "-40.5px", "-22.67px", "-40.38px", "-27px", "-42px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "ease-in-out"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 0.5s linear 1.5s 1 normal forwards running gwd-motion-path-1hgb-keys-x;
+  transform: translate3d(-14px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1hgb-keys-x {
+  0% {
+    transform: translate3d(-14px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4745, 0.0414, 0.5254, 0.9595);
+  }
+  100% {
+    transform: translate3d(-27px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1hgb-anim-y {
+  animation: 0.5s linear 1.5s 1 normal forwards running gwd-motion-path-1hgb-keys-y;
+  transform: translate3d(0px, -42px, 0px);
+}
+@keyframes gwd-motion-path-1hgb-keys-y {
+  0% {
+    transform: translate3d(0px, -42px, 0px);
+    animation-timing-function: cubic-bezier(0.8066, 0.6613, 0.9008, 1);
+  }
+  50.23% {
+    transform: translate3d(0px, -40.84px, 0px);
+    animation-timing-function: cubic-bezier(0.0985, 0, 0.2018, 0.3282);
+  }
+  100% {
+    transform: translate3d(0px, -42px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
